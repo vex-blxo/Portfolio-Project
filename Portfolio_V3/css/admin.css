@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Prevent scrollbars on html and body */
+}
+
+.title{
+    text-align: center;
+}
+
+.bar{
+    width: 1000px;
+    background-color: #ffffff;
+    border: solid black 1px;
+    height: 50px;
+    margin-left: 190px;
+    text-align: left;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 150px;
+    
+}
+
+h4{
+    margin-left: 10px;
+}
+
+.edit_button{
+    background-color: #5ef102;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    align-items: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+   
+}
+
+.edit_button:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.compressor{
+    width: 1000px;
+    text-align: left;
+}
+
+.back{
+    margin-left: 1093px;
+    background-color: #ff3838;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.back:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
